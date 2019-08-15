@@ -20,14 +20,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn2" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp" android:layout_marginBottom="12dp"
-            app:layout_constraintBottom_toTopOf="@+id/btn3"/>
+            app:layout_constraintBottom_toTopOf="@+id/btn3" android:onClick="btn2"/>
     <Button
             android:text="TESTE3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn3" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp" android:layout_marginBottom="76dp"
-            app:layout_constraintBottom_toTopOf="@+id/btnverificar"/>
+            app:layout_constraintBottom_toTopOf="@+id/btnverificar" android:onClick="btn3"/>
     <Button
             android:text="VERIFICAR"
             android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
             android:id="@+id/btnverificar" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp" android:layout_marginBottom="64dp"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:onClick="btnverificar"/>
     <TextView
             android:text="Daltonismo é uma perturbação da percepção visual caracterizada pela incapacidade de diferenciar todas ou algumas cores. Manifesta-se muitas vezes pela dificuldade de distinguir o verde do vermelho"
             android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
             android:inputType="textPersonName"
             android:text="Resposta_1"
             android:ems="10"
-            android:id="@+id/resp_1" android:layout_marginEnd="8dp"
+            android:id="@+id/resp1" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toTopOf="@+id/resp2"/>
