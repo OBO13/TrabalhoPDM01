@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         var A = "12"
 
+        var B = "13"
+
         var i = Intent(this, Tela2::class.java)
         var b = Bundle()
         var mensagem = R.drawable.img1
